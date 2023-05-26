@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import deved from "../public/tahj.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -31,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">developedbyed</h1>
+            <h1 className="font-burtons text-xl"></h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -51,13 +51,13 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Dimitri Marco
+              Tahj Dalzell
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Software Developer 
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
+              Junior FullStack Software Developer providing new ideas and services for programming and design content
               needs. Join me down below and let's get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -72,18 +72,14 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Services</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              For the past 2 years I have been providing programing services to E-Commerce companies and Businesses that needed to take a trip to the future. My love of programing developed because of my love for problem solving.
+              as a graduate from USD FullStack Web Development bootcamp, I have been collaborting with teams to build something live changing for businesses and also for the team.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
-              programming and teaching.
+              programming, photography 
             </p>
           </div>
           <div className="lg:flex gap-10">
