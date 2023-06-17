@@ -86,11 +86,10 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+                Graphic Design
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+               Crafting refined designs tailored to meet your needs while adhering to the fundamental principles of design.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
@@ -101,17 +100,13 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                Clean Code
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+                Rule Number one is always have clean code that can be understood after a glance at the readme.
+                
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+          
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
@@ -120,11 +115,6 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
             </div>
           </div>
         </section>
@@ -146,15 +136,19 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+            <a href="https://musical-dasik-caaa2c.netlify.app" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={web4}
+
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="remotecareerstarter.com"  target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -162,8 +156,10 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://risk-reward-calc.netlify.app" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -171,17 +167,10 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
+            <a href="https://loquacious-peony-c02071.netlify.app" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -189,16 +178,20 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
-            </div>
+           <a href="https://jahaziel-dalzell.myshopify.com" target="_blank" rel="noopener noreferrer">
+           <Image
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+           layout="responsive"
+            src={web1}
+             />
+  </a>
+</div>
+           
           </div>
         </section>
       </main>
