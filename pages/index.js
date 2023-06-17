@@ -16,7 +16,7 @@ import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -58,7 +58,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Junior FullStack Software Developer providing new ideas and services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and lets get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -66,7 +66,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} alt="loading" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="design" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Graphic Design
               </h3>
@@ -98,7 +98,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="code"width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Clean Code
               </h3>
@@ -109,7 +109,7 @@ export default function Home() {
           
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="consulting"width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -123,7 +123,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, Ive done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -143,6 +143,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="A Number Guessing Game"
 
               />
               </a>
@@ -155,6 +156,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt="A LandingPage for Remote Careers"
               />
               </a>
             </div>
@@ -166,6 +168,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="A Risk Reward calculator for leverageing crypto"
               />
               </a>
             </div>
@@ -177,6 +180,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="Worm Game"
               />
               </a>
             </div>
@@ -188,6 +192,7 @@ export default function Home() {
             height={"100%"}
            layout="responsive"
             src={web1}
+            alt="E-Commerce Fashion Store"
              />
   </a>
 </div>
