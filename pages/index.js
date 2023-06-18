@@ -158,7 +158,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="remotecareerstarter.com"  target="_blank" rel="noopener noreferrer">
+              <a href="https://remotecareerstarter.com"  target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
